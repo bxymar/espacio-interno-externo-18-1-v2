@@ -37,6 +37,32 @@ footer{
     padding: 30px;
 }
 
-div{
-    
+
+.pelicula{
+    /* Espacio externo de 10px */
+    margin: 10px;
+
+    /* Espacio interno de 10px */
+    padding: 10px;
+
+    /* Aplicamos un fondo color negro */
+    background-color: #000000;
+
+    /* Ancho del articulo */
+    width: 500px;
+
+    /* Esquinas redondeadas */
+    border-radius: 20px;
+}
+
+.pelicula-imagen{
+
+    /* Ancho de la imagen */
+    width: 480px;
+
+    /* Altura de la imagen */
+    height: 530px;
+
+    /* Propiedad de CSS para que la imagen no sea desproporcional */
+    object-fit: cover;
 }
