@@ -1,0 +1,19 @@
+.enlace{
+    /* Arriba: 10px
+    Abajo: 5px
+    Derecha: 5px
+    Izquierda: 10px */
+
+    padding: 10px 5px 5px 10px;
+    background-color: #BBD6FC;
+
+    /* Propiedad para quitar la linea inferior del enlace */
+    text-decoration: none;
+
+    /* Propiedad para redondear las esquinas */
+    border-radius: 20px;
+    
+    font-family: cursive;
+    font-size: 16px;
+    color: #010B18;
+}
