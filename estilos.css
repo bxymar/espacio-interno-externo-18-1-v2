@@ -12,8 +12,31 @@
 
     /* Propiedad para redondear las esquinas */
     border-radius: 20px;
-    
+
     font-family: cursive;
     font-size: 16px;
     color: #010B18;
+}
+
+/* 
+    - EJERCICIO
+
+Del footer se desea agregar los siguientes espacios internos en los enlaces: 
+
+    - Los primeros dos enlaces, debe contar con: Arriba: 10px, Izquierda: 7px, Derecha: 6px, Abajo: 15px (Forma Abreviada)
+
+    - Los ultimos enlaces, deben contar con: Arriba: 20px, Abajo: 6px, Izquierda: 15px y Derecha: 8px (Forma específica)
+
+    - El footer (<footer><footer>) debe contar con un espacio interno de 30px en general para los 4 lados
+
+    - Agregar un fondo para los enlaces y para el footer
+
+*/
+
+footer{
+    padding: 30px;
+}
+
+div{
+    
 }
