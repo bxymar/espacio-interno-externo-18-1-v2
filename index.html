@@ -4,38 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+
+    <!-- Link para iconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    
-    <!-- Cabecera -->
-    <header>
-
-        <nav>
-            <a href="" class="enlace">Vehículos</a>
-            <a href="" class="enlace">Adquirir</a>
-            <a href="" class="enlace">Electrificados</a>
-        </nav>
-    </header>
 
     <!-- Seccion de Peliculas -->
     <section>
 
         <!-- Representar la película -->
         <article class="pelicula">
+            
             <img src="INTERESTELAR.jpeg" alt="Imagen publicitaria de la película de Interestelar" class="pelicula-imagen">
         
             <!-- Grupo 1 -->
             <div class="grupo-1">
                 <h2>Interestellar</h2>
-                <h6>PG-13 / 2h 49min / Aventura, Drama y Ciencia Ficción</h6>
+
+                <!-- <h6>PG-13 / 2h 49min / Aventura, Drama y Ciencia Ficción</h6> -->
+
+                <span>PG-13 / 2h 49min / Aventura, Drama y Ciencia Ficción</span>
             </div>
 
             <!-- Grupo 2 -->
             <div class="grupo-2">
-                <p>SUMMARY</p>
-                <p>124</p>
-                <p>3</p>
+                <span>SUMMARY</span>
+                
+                <div class="grupo-2-iconos">
+
+                    <div class="icono-numero">
+                        <!-- Icono carita feliz -->
+                        <span class="material-icons">sentiment_satisfied</span>
+                        <!-- Numero (124) -->
+                        <span>124</span>
+                    </div>
+
+                    <div class="icono-numero">
+                        <!-- Icono carita triste -->
+                        <span class="material-icons" id="carita-triste">sentiment_dissatisfied</span>
+                        <!-- Numero (3) -->
+                        <span class="">3</span>
+                    </div>
+                </div>
             </div>
 
             <!-- Grupo 3 -->
@@ -59,13 +72,5 @@
 
     </section>
 
-    <!-- Pie de Página -->
-    <footer>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-    </footer>
 </body>
 </html>
